@@ -8,5 +8,4 @@ import math
 
 arr = [int(i) for i in input('Введите числа через пробел: ').split()]
 for i in range(math.ceil(len(arr) / 2)):
-    mult = arr[i] * arr[len(arr) - 1 - i]
-    print(mult, end=' ')
+    print(arr[i] * arr[len(arr) - 1 - i], end=' ')
